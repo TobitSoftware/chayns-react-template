@@ -5,7 +5,7 @@ const ROOT_PATH = path.resolve('./');
 
 export default (dev = false) => ({
     entry: {
-        'template.bundle': [path.resolve('src/index')],
+        'template.bundle': [path.resolve('src/index')], // ToDo: Update bundle name to match project name
     },
     resolve: {
         alias: dev ? { 'react-dom': '@hot-loader/react-dom' } : undefined,
