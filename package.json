@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --progress --config ./webpack/dev.babel.js --https",
     "start:http": "webpack-dev-server --config ./webpack/dev.babel.js",
     "build": "webpack -p --config ./webpack/prod.babel.js",
-    "build:staging": "webpack -p --config ./webpack/staging.babel.js"
+    "build:staging": "webpack -p --config ./webpack/staging.babel.js",
+    "fix:eslint": "eslint --fix --ext .jsx,.js ./src ./webpack"
   },
   "author": "Tobit.Software",
   "license": "MIT",
