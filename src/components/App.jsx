@@ -1,15 +1,8 @@
-import { hot } from 'react-hot-loader/root';
-import React, { PureComponent } from 'react';
+import React from 'react';
+import WelcomeMessage from './welcome-message/WelcomeMessage';
 
-class App extends PureComponent {
-    render() {
-        return (
-            <>
-                {/* ToDo: Add your components here */}
-            </>
-        );
-    }
-}
+const App = () => {
+    return <WelcomeMessage message="Hello World!" />;
+};
 
 export default App;
-export const HotApp = hot(App);
