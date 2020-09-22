@@ -1,0 +1,8 @@
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.welcome :last-child {
+    margin: 0 0 4px 10px;
+}
