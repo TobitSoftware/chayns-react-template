@@ -1,6 +1,6 @@
 <div align="center">
     <h1>chayns-react-template</h1>
-    <p>A starter template for developing <a href="https://chayns.org/">chayns®</a> Pages.</p>
+    <p>A starter template for developing <a href="https://chayns.org/">chayns®</a> Pages with React.</p>
 </div>
 
 ---
