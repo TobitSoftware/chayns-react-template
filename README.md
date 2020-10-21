@@ -1,3 +1,13 @@
+> **DEPRECATION NOTICE**
+>
+> This Project has been replaced with our new CLI tool for spinning up projects,
+> [`create-chayns-app`](https://github.com/TobitSoftware/create-chayns-app), and
+> will not receive updates going forward.
+>
+> For a more in-depth guide to start developing content for chayns, visit the
+> [`create-chayns-app`](https://github.com/TobitSoftware/create-chayns-app)
+> repository.
+
 <div align="center">
     <h1>chayns-react-template</h1>
     <p>A starter template for developing <a href="https://chayns.org/">chayns®</a> Pages with React.</p>
